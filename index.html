@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Greetings</title>
+        <style>
+            body{
+                background: linear-gradient(to right, rgba(18, 22, 22, 0.333), #818b8b55);
+            }
+            </style>
+    </head>
+<body>
+<div>
+<p id="demo"></p>
+<!-- <p id="man"></p> -->
+
+</div>
+
+<script>
+
+let myDate = new Date();
+  let person = window.prompt("Please enter your name:");
+
+ if(myDate.getHours() < 12){
+    document.write("Good Morning " + person);
+  }else if(myDate.getHours() <= 12 && myDate.getHours() >= 6){
+    document.write("Good Afternoon " + person);
+  }else if(myDate.getHours()<= 6 && myDate.getHours() >= 12){
+    document.write("Good Evening " + person);
+}
+
+document.getElementById("#demo").innerHTML;
+  
+
+
+  
+//   let person = prompt("Please enter your name:", "Mr.");
+//   if (person == null || person == "") {
+//     txt = "User cancelled the prompt.";
+//   } else {
+//     txt = "Good Morning  " + person + "! How are you today?" ;
+//      ;
+
+//   }
+//   document.querySelector("#demo").innerHTML = txt;
+
+
+  
+
+</script>
+
+</body>
+</html>
