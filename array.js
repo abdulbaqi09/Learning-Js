@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-
-    <script>
         //USING POP()
         let fruits = ["Banana", "Orange", "Apple", "Mango"];
         fruits.pop();
@@ -158,16 +147,3 @@
         }
 
         
-        function printFullName (){
-        let firstName = 'Asabeneh'
-        let lastName = 'Yetayeh'
-        let space = ' '
-        let fullName = firstName + space + lastName
-        return fullName
-}
-console.log(printFullName())
-
-
-    </script>
-</body>
-</html>
